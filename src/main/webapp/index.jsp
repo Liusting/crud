@@ -228,7 +228,8 @@
 		
 		//点击新增按钮js
 		$("#emp_add_modal_btn").click(function(){
-			getDepts();
+			console.log(1111);
+			getDepts("#empAddModal select");
 			//发送ajax请求，查出部门信息，显示在下拉列表中
 			$("#empAddModal").modal({
 				backdrop:"static"
